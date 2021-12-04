@@ -3,12 +3,18 @@
   <component name="DesignSurface">
     <option name="filePathToZoomLevelMap">
       <map>
+        <entry key="..\:/Java/app/src/main/res/layout/activity_login.xml" value="0.20416666666666666" />
+        <entry key="..\:/Java/app/src/main/res/layout/activity_main.xml" value="0.20416666666666666" />
+        <entry key="..\:/Java/app/src/main/res/layout/item_truyen.xml" value="0.20416666666666666" />
         <entry key="..\:/Users/Nix Nix/AndroidStudioProjects/Java/app/src/main/res/drawable/ic_khung.xml" value="0.2390625" />
         <entry key="..\:/Users/Nix Nix/AndroidStudioProjects/Java/app/src/main/res/drawable/ic_khungvien.xml" value="0.11481481481481481" />
         <entry key="..\:/Users/Nix Nix/AndroidStudioProjects/Java/app/src/main/res/drawable/ic_person.xml" value="0.2390625" />
         <entry key="..\:/Users/Nix Nix/AndroidStudioProjects/Java/app/src/main/res/layout/activity_login.xml" value="0.264" />
-        <entry key="..\:/Users/Nix Nix/AndroidStudioProjects/Java/app/src/main/res/layout/activity_main.xml" value="0.2" />
+        <entry key="..\:/Users/Nix Nix/AndroidStudioProjects/Java/app/src/main/res/layout/activity_main.xml" value="0.1" />
         <entry key="..\:/Users/Nix Nix/AndroidStudioProjects/Java/app/src/main/res/layout/activity_sign_up.xml" value="0.264" />
+        <entry key="..\:/Users/Nix Nix/AndroidStudioProjects/Java/app/src/main/res/layout/iteam_truyen.xml" value="0.13802083333333334" />
+        <entry key="..\:/Users/Nix Nix/AndroidStudioProjects/Java/app/src/main/res/layout/iteam_truyen1.xml" value="0.2171875" />
+        <entry key="..\:/Users/Nix Nix/AndroidStudioProjects/Java/app/src/main/res/layout/item_truyen.xml" value="0.1" />
       </map>
     </option>
   </component>
