@@ -3,8 +3,11 @@
   <component name="DesignSurface">
     <option name="filePathToZoomLevelMap">
       <map>
+        <entry key="..\:/Java/app/src/main/res/drawable/ic_email.xml" value="0.20462962962962963" />
+        <entry key="..\:/Java/app/src/main/res/drawable/ic_khung.xml" value="0.20462962962962963" />
         <entry key="..\:/Java/app/src/main/res/layout/activity_login.xml" value="0.20416666666666666" />
         <entry key="..\:/Java/app/src/main/res/layout/activity_main.xml" value="0.20416666666666666" />
+        <entry key="..\:/Java/app/src/main/res/layout/activity_sign_up.xml" value="0.20416666666666666" />
         <entry key="..\:/Java/app/src/main/res/layout/item_truyen.xml" value="0.20416666666666666" />
         <entry key="..\:/Users/Nix Nix/AndroidStudioProjects/Java/app/src/main/res/drawable/ic_khung.xml" value="0.2390625" />
         <entry key="..\:/Users/Nix Nix/AndroidStudioProjects/Java/app/src/main/res/drawable/ic_khungvien.xml" value="0.11481481481481481" />

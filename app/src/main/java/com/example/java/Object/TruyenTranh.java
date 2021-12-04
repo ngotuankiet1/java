@@ -1,14 +1,24 @@
 package com.example.java.Object;
 
+import org.json.JSONException;
+import org.json.JSONObject;
+
 public class TruyenTranh {
     private String NameComic,NumberChapter,LinkPicture;
+
+
+    public TruyenTranh(){}
+    public TruyenTranh(JSONObject o)throws JSONException {
+        NameComic = o.getString("NameComic");
+        NumberChapter = o.getString("NumberChapter");
+        LinkPicture = o.getString("LinkPicture");
+    }
 
     public TruyenTranh(String nameComic, String numberChapter, String linkPicture) {
         NameComic = nameComic;
         NumberChapter = numberChapter;
         LinkPicture = linkPicture;
     }
-    public TruyenTranh(){}
 
     public String getNameComic() {
         return NameComic;

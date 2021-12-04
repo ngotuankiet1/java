@@ -15,6 +15,8 @@ import com.example.java.R;
 
 import java.util.ArrayList;
 import java.util.List;
+import java.util.Locale;
+
 public class TruyenTranhAdapter extends ArrayAdapter<TruyenTranh> {
     private Context ct;
     private ArrayList<TruyenTranh> arr;
@@ -23,6 +25,22 @@ public class TruyenTranhAdapter extends ArrayAdapter<TruyenTranh> {
         this.ct = context;
         this.arr = new ArrayList<>(objects);
     }
+
+    public  void sortTruyen(String s){
+        s = s.toUpperCase();
+        int k =0;
+        for(int i =0; i<arr.size();i++){
+            TruyenTranh t = arr.get(i);
+            String ten = t.getNameComic().toUpperCase();
+            if(ten.indexOf(s) >= 0){
+                arr.set(i,arr.get(k));
+                arr.set(k,t);
+                k++;
+            }
+        }
+        notifyDataSetChanged();
+    }
+
     @Override
     public View getView(int position , View converView, ViewGroup parent){
         if(converView==null){
